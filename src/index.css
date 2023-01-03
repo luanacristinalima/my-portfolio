@@ -27,22 +27,6 @@ img {
   border-radius: 20px;
 }
 
-.contact {
-  font-family: var(--heading-font-family);
-  font-size: 30px;
-  text-decoration: underline;
-  margin: 0;
-}
-.content .email {
-  text-decoration: none;
-  font-family: var(--default-font-family);
-  transition: all 200ms ease-in-out;
-}
-.content .social-links:hover {
-  font-family: var(--heading-font-family);
-  color: var(--secondary-color);
-}
-
 .hero {
   background-color: var(--branding-color);
   color: var(--text-color);
@@ -98,6 +82,16 @@ img {
   font-size: 24px;
   line-height: 1.5;
   font-weight: 400;
+}
+
+.content .email {
+  text-decoration: none;
+  font-family: var(--default-font-family);
+  transition: all 200ms ease-in-out;
+}
+.content .social-links:hover {
+  font-family: var(--heading-font-family);
+  color: var(--secondary-color);
 }
 
 .featured-projects {

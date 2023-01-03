@@ -54,7 +54,7 @@ export default function Footer() {
         </div>
       </div>
       <p className="text-center mt-5">
-        This project was coded by Luana Lima, and it is
+        This project was coded by Luana Lima, and it is {""}
         <a
           href="https://github.com/luanacristinalima/Portfolio-Project"
           target="_blank"

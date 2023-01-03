@@ -79,6 +79,15 @@ export default function NavBar() {
               >
                 Contact
               </NavLink>
+              <NavLink
+                exact
+                to="/resume"
+                title="Luana's resume"
+                className="nav-link"
+                style={({ isActive }) => (isActive ? activeStyle : undefined)}
+              >
+                My Resume
+              </NavLink>
             </li>
           </ul>
         </div>

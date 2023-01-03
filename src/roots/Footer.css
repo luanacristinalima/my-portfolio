@@ -31,3 +31,9 @@ footer a:hover,
 .social-links:hover {
   text-decoration: none;
 }
+footer .contact {
+  font-family: var(--heading-font-family);
+  font-size: 30px;
+  text-decoration: underline;
+  margin: 0;
+}

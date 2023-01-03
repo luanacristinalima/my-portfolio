@@ -1,5 +1,6 @@
 import NavBar from "./NavBar";
 import Footer from "./Footer";
+import portrait from "../images/Luana-photo.jpg";
 
 export default function About() {
   return (
@@ -17,17 +18,17 @@ export default function About() {
                 I'm originally from Brazil, but now I'm based in Portugal. I
                 graduated in architecture and urban design, but recently I
                 started to learn code. Since then, I haven't stopped and I'm
-                excited to keep learning and perhaps start a new career in
-                information technology.
+                excited to keep learning and start a new career in information
+                technology.
               </p>
-              <a href="/work.html" title="Luana's work">
+              <a href="/work" title="Luana's work">
                 View my Projects
               </a>
               <i className="fa-solid fa-angles-right icons"></i>
             </div>
             <div className="col-md-6">
               <img
-                src="/images/Luana-photo.jpg"
+                src={portrait}
                 alt="Luana Lima"
                 className="img-fluid shadow"
               />
