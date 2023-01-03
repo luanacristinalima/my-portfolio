@@ -1,63 +1,9 @@
+import NavBar from "./NavBar";
+
 export default function Contact() {
   return (
     <div className="contact">
-      <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <div className="container">
-          <div className="logo d-none d-md-block">
-            <h3>
-              <a href="/" title="Homepage">
-                Luana Lima
-              </a>
-            </h3>
-          </div>
-          <div className="logo d-block d-md-none">
-            <h3>
-              <a href="/" title="Homepage">
-                LL
-              </a>
-            </h3>
-          </div>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav">
-              <li className="nav-item">
-                <a href="/" title="Homepage" className="nav-link">
-                  Home
-                </a>
-              </li>
-              <li className="nav-item">
-                <a href="/about" title="About Luana" className="nav-link">
-                  About
-                </a>
-              </li>
-              <li className="nav-item">
-                <a href="/work" title="Luana's work" className="nav-link">
-                  Work
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  href="/contact"
-                  title="Luana's contact"
-                  className="nav-link active"
-                >
-                  Contact
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+      <NavBar />
 
       <div className="content">
         <div className="container">

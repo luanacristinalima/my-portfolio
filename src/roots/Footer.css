@@ -1,0 +1,33 @@
+footer {
+  background-color: var(--branding-color);
+  padding: 100px 0;
+  color: var(--text-color);
+}
+footer h2 {
+  margin-bottom: 60px;
+}
+footer p,
+footer a {
+  font-size: 18px;
+  margin: 0;
+}
+footer a,
+.social-links {
+  color: var(--text-color);
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+}
+footer a:hover,
+.content .email:hover {
+  color: var(--secondary-color);
+  text-decoration: underline;
+  font-family: var(--default-font-family);
+}
+.social-links,
+.content .social-links {
+  font-size: 36px;
+  padding-right: 15px;
+}
+.social-links:hover {
+  text-decoration: none;
+}
