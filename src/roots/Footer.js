@@ -41,22 +41,13 @@ export default function Footer() {
             >
               <i className="fa-brands fa-github"></i>
             </a>
-            <a
-              href="https://www.instagram.com/luanacristina_lima/"
-              target="_blank"
-              className="social-links"
-              title="Instagram Profile"
-              rel="noreferrer"
-            >
-              <i className="fa-brands fa-instagram"></i>
-            </a>
           </div>
         </div>
       </div>
       <p className="text-center mt-5">
         This project was coded by Luana Lima, and it is {""}
         <a
-          href="https://github.com/luanacristinalima/Portfolio-Project"
+          href="https://github.com/luanacristinalima/my-portfolio"
           target="_blank"
           title="GitHub Portfolio Project"
           rel="noreferrer"

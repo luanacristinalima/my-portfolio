@@ -79,15 +79,17 @@ export default function NavBar() {
               >
                 Contact
               </NavLink>
-              <NavLink
-                exact
-                to="/resume"
+            </li>
+            <li className="nav-item">
+              <a
+                href="https://www.dropbox.com/s/q2mgvme0mkfexo2/Luana_Lima_Resume.pdf?dl=0"
+                target="_blank"
+                rel="noreferrer"
                 title="Luana's resume"
                 className="nav-link"
-                style={({ isActive }) => (isActive ? activeStyle : undefined)}
               >
                 My Resume
-              </NavLink>
+              </a>
             </li>
           </ul>
         </div>

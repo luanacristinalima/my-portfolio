@@ -39,15 +39,6 @@ export default function Contact() {
               >
                 <i className="fa-brands fa-github"></i>
               </a>
-              <a
-                href="https://www.instagram.com/luanacristina_lima/"
-                target="_blank"
-                className="social-links"
-                title="Instagram Profile"
-                rel="noreferrer"
-              >
-                <i className="fa-brands fa-instagram"></i>
-              </a>
             </div>
           </div>
         </div>
