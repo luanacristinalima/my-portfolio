@@ -11,7 +11,6 @@ export default function Work() {
         <div className="container">
           <p>Take a look at what</p>
           <h1 className="mb-5">I've been workin on!</h1>
-
           <WorkProjects />
         </div>
       </div>
