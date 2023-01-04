@@ -22,7 +22,7 @@ export default function Projects() {
             <p>Build with HTML, CSS and React</p>
             <div className="mb-4">
               <a
-                href="https://www.shecodes.io/workshops/shecodes-plus-d2fb7eb5-d6b6-4406-b660-45c4286a097b/projects/1255629"
+                href="https://lustrous-dasik-a2c3a2.netlify.app/"
                 target="_blank"
                 title="Weather App"
                 rel="noreferrer"
@@ -56,7 +56,7 @@ export default function Projects() {
             <p>Build with HTML, CSS and React</p>
             <div className="mb-4">
               <a
-                href="https://www.shecodes.io/workshops/shecodes-basics-add-on-f72fd28e-9087-49e9-8163-cb5a50de7ca9/projects/1246934"
+                href="https://shimmering-mousse-aa3d92.netlify.app/"
                 target="_blank"
                 title="Watercolor painting App"
                 rel="noreferrer"
