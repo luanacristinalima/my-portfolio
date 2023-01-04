@@ -1,6 +1,7 @@
 import hero1 from "../images/Img-hero-1.png";
 import hero2 from "../images/Img-hero-2.png";
 import hero3 from "../images/Img-hero-3.png";
+import { Link } from "react-router-dom";
 
 export default function Hero() {
   return (
@@ -11,9 +12,9 @@ export default function Hero() {
             <p>Hi! I'm</p>
             <h1>Luana Lima</h1>
             <h2>Frontend Developer, based in Portugal.</h2>
-            <a href="/about" title="About Luana Lima">
+            <Link to="/about" title="About Luana Lima">
               read more about me
-            </a>
+            </Link>
           </div>
           <div className="col-lg-3">
             <img

@@ -1,6 +1,7 @@
 import NavBar from "./NavBar";
 import Footer from "./Footer";
 import portrait from "../images/Luana-photo.jpg";
+import { Link } from "react-router-dom";
 
 export default function About() {
   return (
@@ -21,9 +22,9 @@ export default function About() {
                 excited to keep learning and start a new career in information
                 technology.
               </p>
-              <a href="/work" title="Luana's work">
+              <Link to="/work" title="Luana's work">
                 View my Projects
-              </a>
+              </Link>
               <i className="fa-solid fa-angles-right icons"></i>
             </div>
             <div className="col-md-6">
