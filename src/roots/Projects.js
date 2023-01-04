@@ -1,3 +1,7 @@
+import weather from "../images/Weather-App.png";
+import dictionary from "../images/Dictionary-App.png";
+import worldClock from "../images/World-Clock.png";
+
 export default function Projects() {
   return (
     <div className="projects">
@@ -6,16 +10,16 @@ export default function Projects() {
           <div className="col-md-6">
             <h2 className="mt-4 mb-4">
               <i className="fa-solid fa-circle-chevron-right icons"></i>
-              Weather App React
+              Weather App
             </h2>
           </div>
           <div className="col-md-6">
             <p className="mt-4 mb-4">
-              A weather application created for SheCodes Plus. I used the
+              A weather application created for SheCodes React. I used the
               SheCodes Weather API to get the daily forecast and the weather
               condition.
             </p>
-            <p>Build with HTML, CSS and JavaScript</p>
+            <p>Build with HTML, CSS and React</p>
             <div className="mb-4">
               <a
                 href="https://www.shecodes.io/workshops/shecodes-plus-d2fb7eb5-d6b6-4406-b660-45c4286a097b/projects/1255629"
@@ -29,7 +33,7 @@ export default function Projects() {
             </div>
           </div>
           <img
-            src="/images/Weather-App.png"
+            src={weather}
             alt="Weather project preview"
             className="img-fluid shadow-sm p-2 mb-5"
           />
@@ -45,11 +49,11 @@ export default function Projects() {
           </div>
           <div className="col-md-6">
             <p className="mt-4 mb-4">
-              A simple landing page created for SheCodes Basics Add-On. This
-              page is about one of my favorite hobbies and has a Dark/Light
-              Theme change.
+              A dictionary application created for SheCodes React Add-On. It was
+              created using API integration to display word definitions and a
+              gallery.
             </p>
-            <p>Build with HTML, CSS and JavaScript</p>
+            <p>Build with HTML, CSS and React</p>
             <div className="mb-4">
               <a
                 href="https://www.shecodes.io/workshops/shecodes-basics-add-on-f72fd28e-9087-49e9-8163-cb5a50de7ca9/projects/1246934"
@@ -63,7 +67,7 @@ export default function Projects() {
             </div>
           </div>
           <img
-            src="/images/Watercolor-painting.png"
+            src={dictionary}
             alt="Watercolor painting project preview"
             className="img-fluid shadow-sm p-2 mb-5"
           />
@@ -97,7 +101,7 @@ export default function Projects() {
             </div>
           </div>
           <img
-            src="/images/World-Clock.png"
+            src={worldClock}
             alt="World Clock project preview"
             className="img-fluid shadow-sm p-2 mb-5"
           />
