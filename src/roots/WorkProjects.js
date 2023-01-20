@@ -5,6 +5,7 @@ import watercolor from "../images/Workpage/Watercolor-project.png";
 import ladyGaga from "../images/Workpage/Lady-gaga-project.png";
 import weatherReact from "../images/Workpage/Weather-project-React.png";
 import dictionary from "../images/Workpage/Dictionary-project.png";
+import toDo from "../images/Workpage/To-do-project.png";
 
 export default function WorkProjects() {
   return (
@@ -219,6 +220,42 @@ export default function WorkProjects() {
                 </a>
                 <a
                   href="https://github.com/luanacristinalima/dictionary-project"
+                  target="_blank"
+                  title="GitHub Dictionary project"
+                  rel="noreferrer"
+                >
+                  <i className="fa-brands fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="col-md-4">
+        <h2 className="mt-5 mb-4 text-center">To do List Project</h2>
+        <div className="work-container">
+          <img
+            src={toDo}
+            alt="Dictionary project preview"
+            className="img-fluid"
+          />
+          <div className="work-overlay">
+            <div className="work-content">
+              <p className="mt-4">
+                Build with HTML, CSS, Typescript, React and Redux
+              </p>
+              <div className="work-icons">
+                <a
+                  href="https://famous-bombolone-1f702f.netlify.app/"
+                  target="_blank"
+                  title="Dictionary Project"
+                  rel="noreferrer"
+                >
+                  <i className="fa-solid fa-up-right-from-square"></i>
+                </a>
+                <a
+                  href="https://github.com/luanacristinalima/to-do-app"
                   target="_blank"
                   title="GitHub Dictionary project"
                   rel="noreferrer"
