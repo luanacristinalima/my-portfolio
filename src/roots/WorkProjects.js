@@ -6,6 +6,7 @@ import ladyGaga from "../images/Workpage/Lady-gaga-project.png";
 import weatherReact from "../images/Workpage/Weather-project-React.png";
 import dictionary from "../images/Workpage/Dictionary-project.png";
 import toDo from "../images/Workpage/To-do-project.png";
+import blog from "../images/Workpage/Blog-project.png";
 
 export default function WorkProjects() {
   return (
@@ -261,6 +262,34 @@ export default function WorkProjects() {
                   rel="noreferrer"
                 >
                   <i className="fa-brands fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="col-md-4">
+        <h2 className="mt-5 mb-4 text-center">Blog Project</h2>
+        <div className="work-container">
+          <img
+            src={blog}
+            alt="Dictionary project preview"
+            className="img-fluid"
+          />
+          <div className="work-overlay">
+            <div className="work-content">
+              <p className="mt-4">
+                Build with HTML, CSS, Next.js, Typescript and GraphQL
+              </p>
+              <div className="work-icons">
+                <a
+                  href="https://www.luanalimablog.com/"
+                  target="_blank"
+                  title="Dictionary Project"
+                  rel="noreferrer"
+                >
+                  <i className="fa-solid fa-up-right-from-square"></i>
                 </a>
               </div>
             </div>
