@@ -2,11 +2,47 @@ import weather from "../images/Weather-App.png";
 import dictionary from "../images/Dictionary-App.png";
 import worldClock from "../images/World-Clock.png";
 import blog from "../images/Blog-site.png";
+import store from "../images/store-app.png";
+import storeReview from "../images/store-app-review.png";
 
 export default function Projects() {
   return (
     <div className="projects">
       <div className="container">
+        <div className="row project-description">
+          <div className="col-md-6">
+            <h2 className="mt-4 mb-4">
+              <i className="fa-solid fa-circle-chevron-right icons"></i> Store
+              management Project
+            </h2>
+          </div>
+          <div className="col-md-6">
+            <p className="mt-4 mb-4">
+              This custom store management application was developed for our
+              client, offering seamless integration with Shopify's API and the
+              shipping company's interface. It enables addition of new stores,
+              provides real-time updates on order statuses and offers detailed
+              revenue reports categorized by status. In addition to this, a
+              custom-built backend was implemented to efficiently store and
+              manage all relevant data for the project.
+            </p>
+            <p>
+              Build with HTML, CSS, React.js, Typescript, Tailwind and supabase
+            </p>
+          </div>
+          <img
+            src={store}
+            alt="store project preview"
+            className="img-fluid shadow-sm p-2 mb-5"
+          />
+          <img
+            src={storeReview}
+            alt="store project preview"
+            className="img-fluid shadow-sm p-2 mb-5"
+          />
+          <hr />
+        </div>
+
         <div className="row project-description">
           <div className="col-md-6">
             <h2 className="mt-4 mb-4">
