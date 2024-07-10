@@ -4,11 +4,62 @@ import worldClock from "../images/World-Clock.png";
 import blog from "../images/Blog-site.png";
 import store from "../images/store-app.png";
 import storeReview from "../images/store-app-review.png";
+import Miles1 from "../images/amigos-do-miles-1.png";
+import Miles2 from "../images/dashboard.jpg";
+import Miles3 from "../images/calendar.png";
 
 export default function Projects() {
   return (
     <div className="projects">
       <div className="container">
+        <div className="row project-description">
+          <div className="col-md-6">
+            <h2 className="mt-4 mb-4">
+              <i className="fa-solid fa-circle-chevron-right icons"></i> Amigos
+              do Miles
+            </h2>
+          </div>
+          <div className="col-md-6">
+            <p className="mt-4 mb-4">
+              As a Co-Founder and Frontend Developer at Amigos do Miles, I have
+              played a key role in shaping the vision and technical execution of
+              our platform. My responsibilities include project ideation and
+              design, development and implementation of new features, code
+              maintenance and optimization, problem-solving, quality assurance,
+              user experience optimization, and managing version control and
+              documentation using Git.
+            </p>
+            <p>Build with HTML, CSS, React.js, Typescript, and supabase</p>
+            <div className="mb-4">
+              <a
+                href="https://www.amigosdomiles.com/"
+                target="_blank"
+                title="Amigos do Miles"
+                rel="noreferrer"
+              >
+                View Project
+              </a>
+              <i className="fa-solid fa-angles-right icons"></i>
+            </div>
+          </div>
+          <img
+            src={Miles1}
+            alt="amigos do Miles preview"
+            className="img-fluid shadow-sm p-2 mb-5"
+          />
+          <img
+            src={Miles2}
+            alt="amigos do Miles preview"
+            className="img-fluid shadow-sm p-2 mb-5"
+          />
+          <img
+            src={Miles3}
+            alt="amigos do Miles preview"
+            className="img-fluid shadow-sm p-2 mb-5"
+          />
+          <hr />
+        </div>
+
         <div className="row project-description">
           <div className="col-md-6">
             <h2 className="mt-4 mb-4">

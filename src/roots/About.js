@@ -16,13 +16,14 @@ export default function About() {
               <h1>Luana Lima</h1>
               <h2 className="mb-4">Frontend Developer, based in Portugal.</h2>
               <p className="about-text mb-4">
-                I'm originally from Brazil, but now I'm based in Portugal. I
-                hold a degree in architecture and urban design, and over the
-                past year, I've embarked on a dynamic journey into coding. I've
-                actively pursued frontend development, taking on freelance
-                projects to apply and enhance my skills. This transition has
-                ignited my passion for information technology, and I'm eager to
-                continue learning and forge a new career in this field.
+                I hold a degree in architecture and urban design, and over the
+                past year, I have transitioned into the field of software
+                development. During this period, I have worked on front-end
+                development freelance projects and co-founded the platform
+                "Amigos do Miles," where I serve as a Frontend Developer. This
+                journey has not only reinforced my passion for information
+                technology but also solidified my commitment to continuous
+                learning.
               </p>
               <Link to="/work" title="Luana's work">
                 View my Projects
